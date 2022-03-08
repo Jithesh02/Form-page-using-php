@@ -1,0 +1,179 @@
+.page1{
+    background-image: url("backgroungimage.jpeg");
+    background-color: aqua;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    
+    
+    height : 100vh;
+    
+}
+.titleimage{
+ 
+  display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+}
+.firstpage{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.onepart1{
+    width: 300px;
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  
+}
+.onepart1>h1{
+    font-size: 50px;
+    width:50%;
+    
+}
+.onepart2{
+  
+    flex-basis: 40%;
+   padding-right: 10px ;
+}
+.onepart2>form>input{
+    width:80%;
+    height: 40px;
+    border-radius: 30px;
+    
+}
+.onepart2>form>label{
+font-size: 20px;
+}
+.onepart2>form>button{
+    border-radius: 30px;
+    padding:10px;
+    background-color:#f59053;
+  
+}
+.onepart2>form>button:hover{
+    background-color:lightgreen;
+}
+
+.pagetwo{
+    background-color: #fdca85;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: max-content;
+    padding: 20px;
+}
+.pagetwo>h2{
+    padding-top: 20px ;
+    font-size: 40px;
+    flex-basis: 50%;
+  
+}
+.pagetwo>p{
+    flex-basis: 60%;
+    padding: 10px;
+    
+}
+.pagethree{
+    display:flex;
+    justify-content: center;
+    padding:20px;
+}
+.pagethree>img{
+    height:90vh;
+
+}
+
+.pagefour{
+    padding: 20px;
+    display:flex;
+    justify-content: space-around;
+    /* background-color: #fdca85; */
+}
+.fourone{
+    flex-basis:40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+   
+    /* background-color: aqua; */
+}
+.fourtwo{
+    flex-basis:40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.fourone>div{
+    width:100%;
+    /* background-color: aliceblue; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.fourone>div>img{
+    border-radius:50%;
+}
+.fourtwo>div{
+    width:100%;
+    /* background-color: aliceblue; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fourtwo>div>img{
+    border-radius:50%;
+}
+.fourone>p{
+    width:70%
+}
+.fourtwo>p{
+ width: 70%;
+ text-align:center; 
+}
+
+.pagefive{
+    background-color: black;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    
+}
+.fivecontent{
+    display: flex;
+    justify-content: space-evenly;
+    padding:20px;
+}
+.fivecontent>div{
+    flex-basis: 20%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.fivecontent>div>img{
+    border-radius: 50%;
+}
+
+.pagesix{
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+}
+.sixcontent1{
+
+    flex-basis: 40%;
+}
+.sixcontent2{
+    flex-basis: 40%;
+    padding: 20px;
+}
+.sixcontent2>button{
+    padding:10px 20px;
+}
